@@ -139,6 +139,8 @@ Note: I've also evalidated below. More details in jupyter notebook.
 
 Upon examining the side-by-side RMSE plots, as well as the plots showing the absolute differences between Train and Test RMSE, and comparing the Train R2 and Test R2 scores, it becomes evident that **Lasso Regression with Polynomial Features** of degree 2 offers enhanced predictability.
 
+**Note:** During the analysis, I conducted cross-validation on both Ridge Regression with Polynomial Features and LASSO Regression with Polynomial Features. These models initially showed significant variance in RMSE differences. However, due to their extensive computation time, taking approximately 2-3 hours for a complete run, they were excluded from the final iterations of the analysis to maintain efficiency.
+
 **Optimal Model Among Linear, Polynomial, Ridge, and Lasso:**
 Lasso Regression with Polynomial Features stands out as the most effective model.
 
