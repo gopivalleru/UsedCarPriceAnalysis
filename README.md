@@ -214,7 +214,6 @@ The Random Forest model implemented through a pipeline involving scaling with `R
 
 #### Observations
 
-
 - **High R2 Scores**: The model achieves an excellent R2 score of 0.989 on the training data and 0.930 on the test data, indicating a high level of explanatory power regarding the variance in the target variable.
 - **RMSE Discrepancy**: Although the Test RMSE is significantly higher than the Train RMSE, indicating some overfitting, it still outperforms other models like linear, polynomial, Ridge, and LASSO in terms of lower Test RMSE.
 
