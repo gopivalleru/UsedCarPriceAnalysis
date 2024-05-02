@@ -103,7 +103,7 @@ The performance of various regression models applied to predict car prices. The 
 | 7 | Lasso with poly and sfs                       | 6545.251058| 6535.601860| 0.728524 | 0.727535 |
 | 8 | LinearRegression with SFS and GridSearchCV    | 6144.348894| 6126.079257| 0.760762 | 0.760610 |
 
-Note: I've also evalidated below. More details in jupyter notebook.
+Note: I've also evaluated below models. More details in jupyter notebook.
 
 - Polynomial Regression: Overfitting
 - Linear Regression with Polynomial Features using LASSO for Feature Selection: overfitting
@@ -163,6 +163,7 @@ The plot above highlights the significant features that influence the model's pr
 - **Odometer**: Typically, higher mileage leads to lower prices due to wear and tear.
 - **Drive Type (FWD/RWD)**: Front-wheel and rear-wheel drives are generally less expensive than all-wheel drives, which may indicate affordability.
 - **Fuel Type (Gas and Hybrid)**: The absence of electric vehicles could be due to limited data availability or lack of tax incentives for used electric cars.
+- **Pickup trucks**: Pickup trucks have highest sales.
 
 These features help in understanding the factors that most significantly impact the pricing of used cars as modeled by LASSO regression with polynomial features.
 
@@ -189,6 +190,8 @@ This report distills actionable insights from a comprehensive analysis of the us
 3. **Fuel Efficiency and Type**: With rising fuel prices, fuel-efficient and hybrid vehicles have seen a surge in popularity. Incorporating a greater variety of these vehicles could expand your dealership's appeal and customer base.
 
 4. **Drive Type Preferences**: The demand for drive types varies significantly by region. While front-wheel and rear-wheel drives offer affordability, all-wheel and four-wheel drives are preferable in areas with harsh weather conditions. Tailor your inventory to reflect regional preferences and conditions to optimize sales.
+
+5. **Pickup trucks**: There is lot of love for pickup trucks. So, add them to your inventory.
 
 ### Recommendations
 
